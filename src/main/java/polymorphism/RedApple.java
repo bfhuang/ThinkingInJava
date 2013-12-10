@@ -4,7 +4,7 @@ public class RedApple extends Apple{
 
 	public double price = 20;
 
-	RedApple() {
+	public RedApple() {
 		System.out.print("RedApple constructor call overridden method printPrice ");
 		printPrice();
 	}
