@@ -1,5 +1,6 @@
 package polymorphism;
 
+
 public class Main {
 
 	static void  onlyPropertyAndStaticMethodCanNotBeInherited(){
@@ -19,6 +20,7 @@ public class Main {
 //		onlyPropertyAndStaticMethodCanNotBeInherited();
 
 		thereIsAOverriddenMethodBeingCalledInConstructor();
+
 	}
 
 }
