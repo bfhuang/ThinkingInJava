@@ -2,14 +2,14 @@ package polymorphism;
 
 public class Apple {
 
-	protected double price = 10;
+	public double price = 10;
 
-	Apple(){
+	public Apple(){
 		System.out.print("Apple constructor call overridden method printPrice ");
 		printPrice();
 	}
 
-	public double getPrice() {
+	public  double getPrice() {
 		System.out.println("Apple"+price);
 		return price;
 	}
