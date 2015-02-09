@@ -1,0 +1,29 @@
+Java threads are objects like any other java objects.
+
+Threads are instances of class.java.lang.Thread, or instances of subclass of this class.
+
+In addition to being objects, java threads can also execute code.
+
+There are two ways to specify what code the concurrency should execute. The first is to create
+a subclass of Thread and override the run() method. The second method is to pass an object
+that implements Runnable to the Thread constructor.
+
+
+Interface Runnable{
+    void run();
+}
+
+The Runnable interface should be implemented by any class whose instance are intended to be executed by a concurrency.
+
+Class ThreadLocal<T> {
+    ThreadLocal();
+
+    T get();
+    protected T initialValue();
+    void remove();
+    void set(T value);
+}
+
+Class Thread{
+
+}

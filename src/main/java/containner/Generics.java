@@ -14,7 +14,7 @@ public class Generics {
 
 	public static void main(String[] args) {
 
-//		List<Snow> snow1 = Arrays.asList(new Heavy(), new Light());//Error
+		List<Snow> snow1 = Arrays.<Snow>asList(new Heavy(), new Light());//Error
 		List<Snow> snow2 = Arrays.asList(new Snow(),new Heavy(), new Light());
 		List<Snow> snow3 = new ArrayList<Snow>();
 		Collections.addAll(snow3,new Heavy(), new Light());
